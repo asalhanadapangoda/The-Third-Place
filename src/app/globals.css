@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+@theme inline {
+  /* Brand Colors */
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-cream: var(--color-cream);
+  --color-surface: var(--color-surface);
+  --color-surface-strong: var(--color-surface-strong);
+  --color-brown: var(--color-brown);
+  --color-terracotta: var(--color-terracotta);
+  --color-terracotta-hover: var(--color-terracotta-hover);
+
+  /* Brand Typography */
+  --font-display: var(--font-arsenica), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-poppins), system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-cream);
+    color: var(--color-brown);
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-brown);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Typography Hierarchy: Arsenica for Hero & Section Headings, Poppins for UI/Body */
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    color: inherit;
+    letter-spacing: -0.015em;
+  }
+
+  nav,
+  button,
+  input,
+  textarea,
+  select,
+  label {
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background-color: var(--color-primary);
+    color: var(--color-cream);
+  }
+}
+
+/* Subtle warm paper grain texture helper */
+.bg-warm-grain {
+  background-image: radial-gradient(rgba(58, 42, 20, 0.045) 1px, transparent 0);
+  background-size: 22px 22px;
+}

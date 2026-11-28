@@ -1,0 +1,36 @@
+/* ==========================================================================
+   The Third Place — Centralized Brand Design System Tokens
+   Strictly adheres to the 4-color brand palette and 2-font typography system.
+   ========================================================================== */
+
+:root {
+  /* Core Brand Palette */
+  --color-primary: #1E5D54;
+  --color-cream: #F1EBDE;
+  --color-brown: #3A2A14;
+  --color-terracotta: #A95F32;
+
+  /* Semantic Surface & Ink Tokens (derived exclusively from brand palette) */
+  --color-bg: var(--color-cream);
+  --color-surface: #F7F3EA;
+  --color-surface-strong: #E7DEC9;
+  --color-ink: var(--color-brown);
+  --color-ink-muted: rgba(58, 42, 20, 0.72);
+  --color-ink-subtle: rgba(58, 42, 20, 0.52);
+  --color-border: rgba(58, 42, 20, 0.14);
+  --color-border-strong: rgba(58, 42, 20, 0.28);
+
+  /* Interactive States */
+  --color-primary-hover: #174942;
+  --color-terracotta-hover: #8E4E28;
+  --color-on-dark: var(--color-cream);
+  --color-on-dark-muted: rgba(241, 235, 222, 0.78);
+
+  /* Radii & Shadows (warm espresso-tinted shadows) */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+  --radius-pill: 9999px;
+  --shadow-soft: 0 10px 30px -12px rgba(58, 42, 20, 0.12);
+  --shadow-elevated: 0 20px 45px -16px rgba(58, 42, 20, 0.18);
+}

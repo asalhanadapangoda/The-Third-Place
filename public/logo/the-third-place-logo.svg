@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="The Third Place Emblem">
+  <circle cx="32" cy="32" r="30" fill="#1E5D54" />
+  <circle cx="32" cy="32" r="26.5" stroke="#F1EBDE" stroke-opacity="0.35" stroke-width="1.2" />
+  <!-- Organic Coffee Bean -->
+  <ellipse cx="32" cy="38" rx="11.5" ry="14" transform="rotate(-14 32 38)" fill="#F1EBDE" />
+  <path d="M29.2 25.2C32.5 31 29.8 39 33.4 50.6" stroke="#1E5D54" stroke-width="2.2" stroke-linecap="round" />
+  <!-- Botanical Sprout -->
+  <path d="M32 24C32 18.5 32 15.5 32 13" stroke="#F1EBDE" stroke-width="2" stroke-linecap="round" />
+  <path d="M32 19.5C26.5 19.5 23 16.5 22.5 12.2C27.2 12 30.8 14.8 32 19.5Z" fill="#A95F32" />
+  <path d="M32 17.5C37.2 17.5 40.6 14.5 41.2 10.4C36.6 10.2 33.2 13 32 17.5Z" fill="#F1EBDE" />
+</svg>
